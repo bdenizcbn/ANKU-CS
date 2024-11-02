@@ -1,0 +1,47 @@
+div.main-body {
+    display: grid;
+    grid-template-columns: minmax(300px, auto);
+    grid-template-areas: "navbar mainContent";
+    grid-gap: 20px;
+
+}
+body {
+
+    background-color:green;
+    color: #c0caf5;
+}
+
+nav#navbar {
+    grid-area: navbar;
+    position: fixed;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    color:blue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background-color:lightblue;
+}
+
+nav#navbar a {
+    display: block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    background-color:gray;
+}
+
+main#main-doc {
+    grid-area: mainContent;
+}
+
+header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+code {
+    background-color: blue;
+    display: block;
+    padding: 20px;
+};
+
