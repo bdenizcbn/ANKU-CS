@@ -1,0 +1,208 @@
+   /* Genel Stil */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f4f4f9;
+            height: 100vh;
+        }
+        /* Başlık */
+        .üstkısım{
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            height:auto;
+        }
+        .üstkısım h1 {
+            margin: 0;
+        }
+        .üstkısım p {
+            margin: 0;
+            font-style: italic;
+            margin-bottom:20px;
+            color: #fff;
+        }
+
+        .üstkısımnav li {
+            
+            display: inline;
+            list-style-type: none;
+            border-right: 1px solid white;
+            
+        }
+        .üstkısımnav li a {
+            color: white;
+            padding: 15px;
+        }
+        .üstkısımnav li:last-child{
+            border-right: 0px solid white;
+        }
+        /* Ana Bölüm */
+        .anasayfaresim {
+            background-image: url('resim/cafee.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+            height:62%;
+            
+        }
+        .espressoresim {
+            background-image: url('resim/Espresso.png');
+            background-size:cover;
+            border-radius:10%;
+            width:30%;
+            margin-left:35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            height:62%;
+            background-position: center;
+        }
+        .latteresim {
+            background-image: url('resim/latte.png');
+            background-size:cover;
+            border-radius:10%;
+            width:30%;
+            margin-left:35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            height:62%;
+            background-position: center;
+        }
+        .americanoresim {
+            background-image: url('resim/americano.png');
+            background-size:cover;
+            border-radius:10%;
+            width:30%;
+            margin-left:35%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            height:62%;
+            background-position: center;
+        }
+        .Mocharesim {
+            background-image: url('resim/mocha.jpg');
+            background-size:cover;
+            border-radius:10%;
+            width:30%;
+            margin-left:35%;
+            display: flex;
+            color: #fff;
+            text-align: center;
+            font-weight: bold;
+            height:62%;
+            background-position: center;
+        }
+        .menu {
+            padding: 20px;
+            text-align: center;
+            height:2%;
+            
+        }
+        .menu h2 {
+            color: #333;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .menu-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 150px;
+        }
+        .menu-item h3,p {
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+        .menu-item h3:hover
+        {
+            text-decoration:underline;
+        }
+        /* Alt Bilgi */
+        footer{
+            margin-top:30px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            height:auto;
+            
+        }
+        footer p
+        {
+            display:inline-block;
+            color: #fff;
+            margin:15px 10px 20px 0px;
+            text-decoration: none;
+            padding-right: 10px;
+            border-right: 1px solid white;
+        }
+        footer p:nth-child(2)
+        {
+            border-right: 0px solid white;
+        }
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin-top: 20px;
+            padding-right:15px;
+            padding-left:15px;
+            border-right: 1px solid white;
+        }
+        .social-icons a:hover
+        {
+            text-decoration:underline;
+        }
+        .social-icons a:nth-child(3)
+        {
+            border-right:0px solid white;
+        }
+        
+        /* Ana Menü Butonu */
+
+        .anamenü {
+            display: inline-block;
+            margin-top:20px;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-weight: bold; 
+            margin-left:44%;         
+        }
+        .anamenü a
+        {
+            text-decoration: none;
+            color: #fff;
+
+        }
+        .anamenü a:hover {
+            background-color: #ff4500;
+        }
