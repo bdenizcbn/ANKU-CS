@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.üstkısım
+{
+    text-align: center;
+    background-color: chocolate;
+    height:30%;
+    font-size:20px;
+    color: white;
+
+}
+.üstkısım div
+{
+    margin-bottom:5px;
+    
+}
+.resim
+{
+    height: 10%;
+    width: 10%;
+    border-radius:10px;
+    margin-top: 1%;
+    
+}
+.üstkısım ol li a{
+    text-decoration: none;
+    color: white;
+}
+.üstkısım ol li a:hover
+{
+    text-decoration: underline;
+}
+.üstkısım ol li {display: inline-block;}
+.ortakısım{display:grid; background-color: rgb(150,150,150);display:grid; grid-template-columns:2fr 1fr; }
+.gridsol{margin:20px;}
+
+
+.border1
+{
+    background-color:white;  
+    color: black;
+    margin-top:2%;
+    padding:2%;
+    border-radius: 5px;
+    font-size:20px;
+}
+h3{
+    text-decoration: underline;
+    color: brown;
+}
+.border2
+{
+    background-color:white;   
+    color: black;
+    margin-top:2%;
+    padding:2%;
+    border-radius: 5px;
+    font-size:20px;
+}
+.border3
+{
+    background-color:white;
+    color: black;
+    margin-top:2%;
+    padding:2%;
+    border-radius: 5px;
+    font-size:20px;
+}
+.borderrez
+{
+    background-color:white;
+    color: black;
+    margin-top:2%;
+    padding:2%;
+    border-radius: 5px;
+    font-size:20px;
+    height:90%;
+}
+.borderrez-submit
+{
+    border-radius:5px;
+    background-color: brown;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+input{  
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;}
+footer{
+background-color: brown;
+text-align: center;
+font-size:15px;
+color: white;
+padding: 20px;
+}
